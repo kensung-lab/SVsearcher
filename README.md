@@ -14,5 +14,5 @@ Structural variations (SVs) represent genomic rearrangements such as deletions, 
 	8. argparse
 ---
 ## Running
-         detectSV <sorted.bam> <reference.fa>
+    detectSV <sorted.bam> <reference.fa>
 ---
