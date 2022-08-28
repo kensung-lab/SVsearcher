@@ -15,7 +15,9 @@ Structural variations (SVs) represent genomic rearrangements such as deletions, 
 ---
 ## Running
 The sorted bam files from NGMLR, Minimap and Minimap2 are all be used as input sorted bam. The input reference.fa and reference.fa of bam file must be the same one.
+```
     detectSV <input sorted bam> <input reference.fa>	
+```
 ---
 ## Contact
 For advising, bug reporting and requiring help, please contact yan.zheng@nwpu-bioinformatics.com.
