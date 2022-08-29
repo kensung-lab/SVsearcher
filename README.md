@@ -23,7 +23,7 @@ wget https://github.com/kensung-lab/SVsearcher.git
 The sorted bam files from NGMLR, Minimap and Minimap2 are all be used as input sorted bam. The input reference.fa and reference.fa of bam file must be the same one.
 ```
 cd dist
-detectSV <input sorted bam> <input reference.fa>	
+SVsearcher <input sorted bam> <input reference.fa>	
 ```
 ---
 ## Contact
