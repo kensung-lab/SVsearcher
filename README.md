@@ -26,5 +26,13 @@ cd dist
 SVsearcher <input sorted bam> <input reference.fa>	
 ```
 ---
+## Output format
+The sorted bam files from NGMLR, Minimap and Minimap2 are all be used as input sorted bam. The input reference.fa and reference.fa of bam file must be the same one.
+```
+chr1	10780	cuteSV.INS.1	g	gGAACACATGCTAGCGCGTCCGGGGGTGGAGGCGATAGCGCAGGCGCAGAGAGCGCCGCGCC	.	PASS	PRECISE;SVTYPE=INS;SVLEN=61;END=10780;CIPOS=-53,53;CILEN=-17,17;RE=12;RNAMES=NULL	GT:DR:DV:PL:GQ	./.:.:12:.,.,.:.
+chr1	30893	cuteSV.DEL.0	catttctctctatctcatttctctctctctcgctatct	c	.	PASS	PRECISE;SVTYPE=DEL;SVLEN=-37;END=30930;CIPOS=-6,6;CILEN=-2,2;RE=14;RNAMES=NULL;STRAND=+-	GT:DR:DV:PL:GQ	./.:.:14:.,.,.:.
+
+```
+---
 ## Contact
 For advising, bug reporting and requiring help, please contact yan.zheng@nwpu-bioinformatics.com.
