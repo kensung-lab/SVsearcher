@@ -6,7 +6,7 @@ Structural variations (SVs) represent genomic rearrangements such as deletions, 
 ---
 ## Installation
 ```
-wget https://github.com/kensung-lab/SVsearcher.git	
+git clone https://github.com/kensung-lab/SVsearcher.git	
 ```
 ---
 ## Dependence
