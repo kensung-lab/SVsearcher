@@ -1,0 +1,1 @@
+The command for test bam file is ./SVsearcher test.sort.bam hg19.fa
