@@ -1093,5 +1093,5 @@ for site in final_sv_result2:
         ID = 'SVsearcher.inv.' + str(inv_IDnum)
 
     w.write(str(site[0]) + ' ' + str(site[1]) + ' '+ ID+' '+str(genes[str(site[0])][site[1]:site[2]+1])+' . 60 PASS '+\
-        'SVTYPE='+str(site[4])+'; '+'SVLEN='+str(site[3])+'; '+'END='+str(site[2])+'; GT:DR:DV:PL:GQ	./.:.:12:.,.,.:.'+'\n')
+        'SVTYPE='+str(site[4])+'; '+'SVLEN='+str(site[3])+'; '+'END='+str(site[2])+';RNAMES=NULL'+'\n')
 #I add modified tep to modify the DEL pos. and add soft clip read step.
