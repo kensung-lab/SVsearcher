@@ -1,1 +1,3 @@
+The reference file needs to be downloaded by the user. 
+The reference required for this bam file is hg19.
 The command for test bam file is ./SVsearcher test.sort.bam hg19.fa
